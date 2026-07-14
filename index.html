@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libella - Agricoltura di Precisione</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .heading { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- NAV -->
+  <nav class="fixed top-0 w-full bg-black/95 backdrop-blur-lg z-50 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex justify-center gap-10 text-lg">
+      <a href="chi-siamo.html" class="hover:text-emerald-400 transition">Chi Siamo</a>
+      <a href="servizi.html" class="hover:text-emerald-400 transition">Servizi</a>
+      <a href="tecnologia.html" class="hover:text-emerald-400 transition">Tecnologia</a>
+      <a href="galleria.html" class="hover:text-emerald-400 transition">Galleria</a>
+      <a href="contatti.html" class="hover:text-emerald-400 transition">Contatti</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex items-center justify-center">
+    <div class="absolute inset-0 bg-[url('images/sfondo.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
+    
+    <div class="relative z-10 text-center px-6">
+      <!-- Logo grande centrale -->
+      <img src="images/Libella-3.png" 
+           alt="Libella" 
+           class="mx-auto mb-12 w-[450px]">
+
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="servizi.html" class="bg-emerald-600 hover:bg-emerald-500 px-10 py-4 rounded-2xl font-semibold text-lg transition">
+          Scopri i Servizi
+        </a>
+        <a href="contatti.html" class="border-2 border-white hover:bg-white hover:text-black px-10 py-4 rounded-2xl font-semibold text-lg transition">
+          Contattaci
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
